@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color: #e6f0ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3366cc;
+}
+
+#creditos {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.semestre {
+  border: 2px solid #3366cc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.ramo {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.ramo.bloqueado {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.ramo.aprobado {
+  background-color: #cce5ff;
+  text-decoration: line-through;
+}

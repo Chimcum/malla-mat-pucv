@@ -1,0 +1,387 @@
+{
+  "semestres": [
+    {
+      "nombre": "1º Semestre",
+      "ramos": [
+        {
+          "codigo": "IMA1101",
+          "nombre": "Cálculo 1 – IMA1101",
+          "creditos": "5.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "IMA1102",
+          "nombre": "Álgebra – IMA1102",
+          "creditos": "5.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "IMA1118",
+          "nombre": "Geometría Analítica y Vectorial – IMA1118",
+          "creditos": "5.0",
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "nombre": "2º Semestre",
+      "ramos": [
+        {
+          "codigo": "IMA1201",
+          "nombre": "Cálculo 2 – IMA1201",
+          "creditos": "5.0",
+          "prerrequisitos": [
+            "IMA1101"
+          ]
+        },
+        {
+          "codigo": "IMA1202",
+          "nombre": "Álgebra Lineal 1 – IMA1202",
+          "creditos": "5.0",
+          "prerrequisitos": [
+            "IMA1102",
+            "IMA1118"
+          ]
+        },
+        {
+          "codigo": "IMA1203",
+          "nombre": "Programación – IMA1203",
+          "creditos": "4.0",
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "nombre": "3º Semestre",
+      "ramos": [
+        {
+          "codigo": "IMA1119",
+          "nombre": "Cálculo 3 – IMA1119",
+          "creditos": "4.0",
+          "prerrequisitos": [
+            "IMA1201"
+          ]
+        },
+        {
+          "codigo": "IMA1303",
+          "nombre": "Métodos Numéricos y Ecuaciones Diferenciales – IMA1303",
+          "creditos": "4.0",
+          "prerrequisitos": [
+            "IMA1201",
+            "IMA1203"
+          ]
+        },
+        {
+          "codigo": "IMA1305",
+          "nombre": "Teoría de Números – IMA1305",
+          "creditos": "5.0",
+          "prerrequisitos": [
+            "IMA1102"
+          ]
+        },
+        {
+          "codigo": "LCL122",
+          "nombre": "Estrategias Discursivas – LCL122",
+          "creditos": "2.0",
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "nombre": "4º Semestre",
+      "ramos": [
+        {
+          "codigo": "EPE1320",
+          "nombre": "Educar en y para la Diversidad – EPE1320",
+          "creditos": "3.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "IMA1405",
+          "nombre": "Análisis Real – IMA1405",
+          "creditos": "5.0",
+          "prerrequisitos": [
+            "IMA1119"
+          ]
+        },
+        {
+          "codigo": "IMA1406",
+          "nombre": "Estructuras Algebraicas 1 – IMA1406",
+          "creditos": "5.0",
+          "prerrequisitos": [
+            "IMA1305"
+          ]
+        },
+        {
+          "codigo": "PRA101-33",
+          "nombre": "Práctica Docente Inicial – PRA101-33",
+          "creditos": "4.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "PSI331",
+          "nombre": "Taller Aprendizaje Adolescente – PSI331",
+          "creditos": "3.0",
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "nombre": "5º Semestre",
+      "ramos": [
+        {
+          "codigo": "EST159",
+          "nombre": "Estadística 1 – EST159",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "IMA1201"
+          ]
+        },
+        {
+          "codigo": "IMA1504",
+          "nombre": "Didáctica del Cálculo – IMA1504",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "IMA1405"
+          ]
+        },
+        {
+          "codigo": "IMA1505",
+          "nombre": "Didáctica de Sistemas Numéricos – IMA1505",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "IMA1406"
+          ]
+        },
+        {
+          "codigo": "IMA1506",
+          "nombre": "Geometría Euclidiana Plana – IMA1506",
+          "creditos": "5.0",
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "nombre": "6º Semestre",
+      "ramos": [
+        {
+          "codigo": "EPE1118",
+          "nombre": "Fund. Filosóficos Educación – EPE1118",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "PRA101-33"
+          ]
+        },
+        {
+          "codigo": "IMA1605",
+          "nombre": "Didáctica de la Estadística – IMA1605",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "EST159"
+          ]
+        },
+        {
+          "codigo": "IMA1606",
+          "nombre": "Geometría 3D y No Euclidiana – IMA1606",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "IMA1506"
+          ]
+        },
+        {
+          "codigo": "IMA1607",
+          "nombre": "Práctica Comunitaria – IMA1607",
+          "creditos": "4.0",
+          "prerrequisitos": [
+            "PSI331",
+            "PRA101-33",
+            "EPE1320",
+            "IMA1505"
+          ]
+        },
+        {
+          "codigo": "ING9001",
+          "nombre": "Inglés 1 – ING9001",
+          "creditos": "2.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "PSI275",
+          "nombre": "Psicología Social – PSI275",
+          "creditos": "3.0",
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "nombre": "7º Semestre",
+      "ramos": [
+        {
+          "codigo": "EPE1303",
+          "nombre": "Teoría y Planificación Curricular – EPE1303",
+          "creditos": "3.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "EPE1400",
+          "nombre": "Políticas Públicas – EPE1400",
+          "creditos": "2.0",
+          "prerrequisitos": []
+        },
+        {
+          "codigo": "EST169",
+          "nombre": "Estadística 2 – EST169",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "EST159"
+          ]
+        },
+        {
+          "codigo": "IMA1701",
+          "nombre": "Didáctica de la Geometría – IMA1701",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "IMA1606",
+            "IMA1504"
+          ]
+        },
+        {
+          "codigo": "ING9002",
+          "nombre": "Inglés 2 – ING9002",
+          "creditos": "2.0",
+          "prerrequisitos": [
+            "ING9001"
+          ]
+        },
+        {
+          "codigo": "LCL465",
+          "nombre": "Estrategias Discursivas 2 – LCL465",
+          "creditos": "2.0",
+          "prerrequisitos": [
+            "LCL122"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "8º Semestre",
+      "ramos": [
+        {
+          "codigo": "EPE1302",
+          "nombre": "Evaluación del Aprendizaje – EPE1302",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "EPE1303"
+          ]
+        },
+        {
+          "codigo": "IMA1801",
+          "nombre": "Didáctica Probabilidad – IMA1801",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "EST169",
+            "IMA1605"
+          ]
+        },
+        {
+          "codigo": "IMA1802",
+          "nombre": "Uso Tecnologías Matemática – IMA1802",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "IMA1303",
+            "IMA1203",
+            "IMA1701"
+          ]
+        },
+        {
+          "codigo": "ING9003",
+          "nombre": "Inglés 3 – ING9003",
+          "creditos": "2.0",
+          "prerrequisitos": [
+            "ING9002"
+          ]
+        },
+        {
+          "codigo": "PRA301-33",
+          "nombre": "Práctica Intermedia – PRA301-33",
+          "creditos": "6.0",
+          "prerrequisitos": [
+            "PSI331",
+            "IMA1505",
+            "PRA101-33",
+            "EPE1303",
+            "IMA1701"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "9º Semestre",
+      "ramos": [
+        {
+          "codigo": "EPE1130",
+          "nombre": "Identidad Docente – EPE1130",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "PRA301-33"
+          ]
+        },
+        {
+          "codigo": "IMA1901",
+          "nombre": "Historia y Epistemología – IMA1901",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "PRA301-33"
+          ]
+        },
+        {
+          "codigo": "IMA1902",
+          "nombre": "Taller Investigación Didáctica – IMA1902",
+          "creditos": "3.0",
+          "prerrequisitos": [
+            "LCL465",
+            "PRA301-33",
+            "IMA1801"
+          ]
+        },
+        {
+          "codigo": "IMA1903",
+          "nombre": "Trabajo de Título – IMA1903",
+          "creditos": "6.0",
+          "prerrequisitos": [
+            "IMA1801",
+            "IMA1802",
+            "PRA301-33"
+          ]
+        },
+        {
+          "codigo": "ING9004",
+          "nombre": "Inglés 4 – ING9004",
+          "creditos": "2.0",
+          "prerrequisitos": [
+            "ING9003"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "10º Semestre",
+      "ramos": [
+        {
+          "codigo": "PRA601-33",
+          "nombre": "Práctica Final – PRA601-33",
+          "creditos": "16.0",
+          "prerrequisitos": [
+            "PRA301-33",
+            "EPE1302",
+            "EPE1130",
+            "IMA1607",
+            "IMA1903",
+            "IMA1902",
+            "IMA1901"
+          ]
+        }
+      ]
+    }
+  ]
+}
